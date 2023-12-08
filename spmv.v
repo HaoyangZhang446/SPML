@@ -5,18 +5,21 @@
 // Target Devices : 
 // Tool Versions  : 
 // Description    : 
-//    
+//    sparse matrix-vector multiplication PE
 //    B=A @ x
+//    with custom compression format
+//    
 //    
 //    
 //    
 // Revision       :
 // Version        Date        Author        Descriptin
-// 
+// 0              2023/12/07  HY Zhang    
 // 
 // 
 // 
 // -----------------------------------------------------------------------------
+module  spmv
 module  spmv
   #(
     parameter       NNZ             =   'd100000  ,       //
